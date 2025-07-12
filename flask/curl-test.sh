@@ -3,7 +3,7 @@
 # This script tests POST, GET, DELETE on same given endpoints for an API using curl commands.
 
 # Variables must be changed for each API
-BASE_URL="http://localhost:5000/api"
+BASE_URL="http://jp-verse.duckdns.org:5000//api"
 ENDPOINT="timeline_post"
 POST_PAYLOAD="name=ScriptyTester&email=test@automated.com&content=Generic test message from script"
 
